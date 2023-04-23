@@ -16,7 +16,7 @@ const data =[
     },
     {
     year: 2020,
-    title: "Customer Service - Adidas",
+    title: "Customer Serviced - Adidas",
     duration: "2 years",
     details: "This was my first desk-job and it allowed me to Build up my softskills. learned how to provide better communication with customers and solve issues using critical thinking and comunication",
     },

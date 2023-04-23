@@ -3,6 +3,7 @@ import { FaBars, FaTimes} from "react-icons/fa";
 import {VscGithubAlt} from 'react-icons/vsc'
 import { AiOutlineLinkedin } from 'react-icons/ai'
 import {MdOutlineAlternateEmail} from'react-icons/md'
+import {Link} from "react-scroll";
 
 const Navbar = () => {
 
@@ -60,16 +61,18 @@ const handleThemeSwitch =() => {
 
         <ul className="hidden md:flex">
        <li className= "px-4 cursor-pointer capitalize font-medium  text-neutral-500 hover:text-neutral-600 hover:scale-105 duration-200">
-         Home
+       <Link  to="home" spy={true} smooth={true} offset={50} duration={500}> Home </Link>
           </li>
           <li className= "px-4 cursor-pointer capitalize font-medium  text-neutral-500 hover:text-neutral-600 hover:scale-105 duration-200">
-         About
+          <Link  to="about" spy={true} smooth={true} offset={50} duration={500}> About 
+        
+        </Link>
           </li>
           <li className= "px-4 cursor-pointer capitalize font-medium  text-neutral-500 hover:text-neutral-600 hover:scale-105 duration-200">
-         Portfolio
+          <Link  to="projects" spy={true} smooth={true} offset={50} duration={500}> Projects </Link>
           </li>
           <li className= "px-4 cursor-pointer capitalize font-medium  text-neutral-500 hover:text-neutral-600 hover:scale-105 duration-200">
-         Skills
+      
           </li>
     
         </ul>

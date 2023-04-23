@@ -2,6 +2,7 @@ import {React} from 'react'
 import hi from '../assets/hi.jpg'
 import { RiArrowRightSFill }from 'react-icons/ri'
 import Typed from 'react-typed';
+import { Link } from'react-scroll';
 
 const Home = () => {
   return (
@@ -28,14 +29,16 @@ const Home = () => {
     Currently, I really enjoy working on web applications using technologies like React, CSS, & JavaScript
           </p>
           <div className= "py-1 flex">
-            <button className ="group text-semibold font-ubuntu w-fit px-6 py-  flex items-center rounded-lg bg-sky-400 hover:bg-sky-500">
-              Projects
+            <button  
+            className ="group text-semibold font-ubuntu w-fit px-6 py-  flex items-center rounded-lg bg-sky-400
+             hover:bg-sky-500 " >
+             <Link  to="projects" spy={true} smooth={true} offset={50} duration={500}> Projects</Link>
               <span className="group-hover:rotate-90 duration-300">
               <RiArrowRightSFill size={25}/>
             </span>
             </button>
             <button className =" ml-20 font-ubuntu text-bold  w-fit px-6 py-3 y-4 flex justify-end rounded-md bg-neutral-50
-             hover:bg-neutral-300">Resume</button>
+             hover:bg-neutral-300"> <a href = "https://ca.linkedin.com/in/aaron-stellato-a43b431bb">My Dog</a></button>
           </div>
     
 

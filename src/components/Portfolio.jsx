@@ -1,8 +1,8 @@
 import React from 'react'
 import Weather from '../assets/Weather.png'
 import Uav from '../assets/Uav.png'
-import Union from '../assets/union.png'
-import Server from '../assets/server.png'
+import Union from '../assets/Union.png'
+import Server from '../assets/Server.png'
 
 const Portfolio = () => {
 

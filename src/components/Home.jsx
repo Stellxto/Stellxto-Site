@@ -38,7 +38,7 @@ const Home = () => {
             </span>
             </button>
             <button className =" ml-20 font-ubuntu text-bold  w-fit px-6 py-3 y-4 flex justify-end rounded-md bg-neutral-50
-             hover:bg-neutral-300"> <a href = "https://ca.linkedin.com/in/aaron-stellato-a43b431bb">My Dog</a></button>
+             hover:bg-neutral-300"> <a href = "https://imgur.com/a/LunTEGU" target = "_blank">My Dog</a></button>
           </div>
     
 

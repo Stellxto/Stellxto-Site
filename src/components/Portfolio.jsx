@@ -44,13 +44,6 @@ const Portfolio = () => {
             <span className = "mx-3">Designed and 3D printed a UAV</span> 
           </div>
         </div>
-        <div
-           className = "shadow-md shadow-sky-400 rounded-lg">
-          <img src={Server} alt="" className ="rounded-md object-scale-down h-36 w-96" />
-          <div className = " flex items-center justify-center">
-            <span className = "mx-3">Using Ubuntu Server set up a Home-Server</span> 
-          </div>
-        </div>
 
         </div>
       </div>

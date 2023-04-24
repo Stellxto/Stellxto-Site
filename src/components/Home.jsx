@@ -1,5 +1,5 @@
 import {React} from 'react'
-import hi from '../assets/hi.jpg'
+import hi from '../assets/hi.png'
 import { RiArrowRightSFill }from 'react-icons/ri'
 import Typed from 'react-typed';
 import { Link } from'react-scroll';

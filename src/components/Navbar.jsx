@@ -90,7 +90,6 @@ const handleThemeSwitch =() => {
         <li className = "text-neutral-100 text-4xl font-semibold  px-48 py-6 bg-neutral-500 outline-1 rounded shadow hover:bg-neutral-700">home</li>
         <li className = "text-neutral-100 text-4xl font-semibold px-48 py-6 bg-neutral-500 outline-1 rounded shadow hover:bg-neutral-700">About</li>
         <li className = "text-neutral-100 text-4xl font-semibold px-48 py-6 bg-neutral-500 outline-1 rounded shadow hover:bg-neutral-700">Project</li>
-        <li className = "text-neutral-100 text-4xl font-semibold px-48 py-6 bg-neutral-500 outline-1 rounded shadow hover:bg-neutral-700">Skills</li>
         </ul>
     
         )}

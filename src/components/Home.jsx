@@ -17,8 +17,8 @@ const Home = () => {
         "Creator",
         "Designer",
         "Hobbiest",]}
-        typeSpeed ={100}
-        backSpeed ={50}
+        typeSpeed ={50}
+        backSpeed ={25}
         loop 
       >
 
